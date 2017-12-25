@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  /*font-family: Andale Mono, AndaleMono, monospace;*/
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.challenge-module {
+  padding-bottom: 30px;
+}
+
+#main-region {
+  margin: 0 auto;
+  width: 680px;
+  padding: 10px;
+  background-color: white;
+  padding: 20px 40px;
+}
+
+#problem-description,
+#problem-title {
+  margin-bottom: 15px;
+}
+
+#problem-title {
+  font-size: 24px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+#solution-area {
+  border: 1px solid black;
+  min-height: 40px;
+  margin-bottom: 15px;
+}
+
+.puzzle-pieces {
+  min-height: 80px;
+  border: black solid 1px;
+  padding: 4px;
+  margin-bottom: 10px;
+}
+
+.code-fragment {
+  height: 40px;
+  padding: 0 15px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 3px 3px;
+  vertical-align: top;
+  border: 1px solid gray;
+  line-height: 40px;
+  border-radius: 3px;
+  font-family: Andale Mono, AndaleMono, monospace;
+  vertical-align: middle;
+
+}
+
+#problem-section {
+  padding-bottom: 15px;
+}
+
+#restart,
+#submit {
+  background-color: #42adf4;
+  padding: 5px;
+  display: inline-block;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  width: 32%;
+}
+
+#solved,
+#unsolved {
+  display: none;
+  padding: 3px;
+  width: 32%;
+  text-align: center;
+  border-radius: 3px; 
+}
+
+#solved {
+  border: green solid 2px;
+}
+
+#unsolved {
+  border: red solid 2px;
+}
+
+.word-card {
+  width: 48%;
+  display: inline-block;
+  border: 3px solid blue;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.word-card img {
+  max-width: 100%;
+  height: 150px;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 7px;
+}
+
+.word-card.selected {
+  border: green 3px solid;
+}

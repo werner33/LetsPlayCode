@@ -31,13 +31,13 @@ body {
   font-weight: 600;
 }
 
-#solution-area {
+#solution-area, #solution-area-1 {
   border: 1px solid black;
   min-height: 40px;
   margin-bottom: 15px;
 }
 
-.puzzle-pieces {
+.puzzle-pieces, .puzzle-pieces-1 {
   min-height: 80px;
   border: black solid 1px;
   padding: 4px;
@@ -60,8 +60,8 @@ body {
 
 }
 
-#problem-section {
-  padding-bottom: 15px;
+#problem-section, .problem-module {
+  padding-bottom: 40px;
 }
 
 #restart,
@@ -81,7 +81,7 @@ body {
   padding: 3px;
   width: 32%;
   text-align: center;
-  border-radius: 3px; 
+  border-radius: 3px;
 }
 
 #solved {
